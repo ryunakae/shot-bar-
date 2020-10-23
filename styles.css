@@ -256,7 +256,7 @@ main .gallery {
 
 .full_calendar {
   width: 290px;
-  height: 260px;
+  height: 270px;
   background-color: #880000;
   display: flex;
   flex-direction: column;
