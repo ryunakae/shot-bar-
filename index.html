@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>shot bar カボチャソース｜HOME</title>
+
+  <link rel="icon" type="image/png" href="image/icon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <input id="menu" type="checkbox" />
+    <label for="menu" class="closeArea"></label>
+    <div class="HeaderObi">
+      <img src="image/title_850_164.jpg" alt="カボチャソース">
+      <label for="menu" class="openClose"><div id="bar1"></div><div id="bar2"></div><div id="bar3"></div></label>
+    </div>
+    <aside>
+      <ul>
+        <li><a class="jump1" href="#">ホーム</a></li>
+        <li><a class="jump2" href="#news">お知らせ</a></li>
+        <li><a class="jump2" href="#map">マップ</a></li>
+        <li><a class="jump2" href="#info">お店の情報</a></li>
+        <li><a class="jump2" href="#calendar">営業日カレンダー</a></li>
+        <li><a class="jump1" href="menu.html">メニュー</a></li>
+        <li><a class="jump1" href="livespace.html">ライブスペース</a></li>
+      </ul>
+    </aside>
+    <div class="pc">
+      <a href="#">HOME</a>
+      <a href="menu.html">MENU</a>
+      <a href="livespace.html">Live Space</a>
+    </div>
+  </header>
+  <main>
+    <img class="gallery" src="image/interior_850_341.jpg" alt="内装">
+
+    <div class="intro">
+      <p>
+      #<em>チャージ料一切なし</em>！１ドリンク¥500～あります！<br>
+      #あなたに合った<em>オリジナルカクテル</em>作ります！¥600～<br>
+      #マスターセッティングのコンパも！！<br>
+      #２Fはライブスペース【<em>ARPEGGIO</em>】<br>
+      #Acousticな生演奏やバンドライブを随時開催！<br>
+      #<em>団体様大歓迎</em>！２Fを貸切ったパーティーもできます！<br>
+      #<em>おもしろマスターや気さくなカボチャソースの仲間はあなたのことを待っています！</em>
+      </p>
+    </div>
+
+    <div class="menu"><a href="menu.html">&nbsp;―――メニューはこちらから―――&nbsp;</a></div>
+
+    <div class="news" id="news">
+      <h2>++ お知らせ ++</h2>
+      <p>
+      地方放送局、FMひらかたとのコラボ企画で４月から新番組が始まりました！その名も【ロフトミュージック】！！　FM77.9MHz/第２～５金曜日21時～22時(再/土曜日24時30分～25時30分)の「ジモソンアワー」内で約10分、当店のコーナー【ロフトミュージック】が流れます。日頃お店に集う様々なアーティストたちの中で、マスター自らが選ぶ"今、このアーティストが熱い！"や"今のうちにチェケラ！"な音楽を番組で紹介します。
+      </p>
+    </div>
+
+    <div class="map" id="map">
+      <h1>お店までのアクセス</h1>
+      <div class="gmap">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6548.904346602417!2d135.667872!3d34.844864!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3c88e96d9b818bad!2z44Kr44Oc44OB44Oj44K944O844K5!5e0!3m2!1sja!2sjp!4v1601906616435!5m2!1sja!2sjp" width="100%" height="auto" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>
+      <div class="access">
+        京阪本線、牧野駅から徒歩３分<br>
+        小さい扉が目印♪
+      </div>
+    </div>
+
+    <table class="info" id="info">
+      <tbody>
+      <tr><th>店舗名</th><td>shot bar カボチャソース</td></tr>
+      <tr><th>住所</th><td>大阪府枚方市牧野下島町１４－２２</td></tr>
+      <tr><th>電話番号</th><td><a href="tel:072-809-7676" class="tel">072-809-7676</a></td></tr>
+      <tr><th>営業時間</th><td>18:00～03:00ラストオーダー<br>(定休日：木曜日)</td></tr>
+      <tr><th>その他</th><td>駐車場</td></tr>
+      </tbody>
+    </table>
+
+    <div class="calendar">
+      <h1>営業日カレンダー</h1>
+      <div class="full_calendar">
+        <div id="YearMonth"></div>
+        <table id="calendar"></table>
+      </div>
+      <div class="off_days">
+        <span class="dayoff">定休日</span>
+        <span class="temp_dayoff">臨時休業</span>
+      </div>
+      <script src="calendar.js"></script>
+    </div> 
+    <p class="copyright">&copy; shot bar カボチャソース All Rights Reserved.</p>
+  </main>
+  <footer>
+    <div class="footerLink"><a href="#">HOME</a></div>
+    <div class="border"></div>
+    <div class="footerLink"><a href="menu.html">MENU</a></div>
+    <div class="border"></div>
+    <div class="footerLink"><a href="livespace.html">Live Space</a></div>
+  </footer>
+</body>
+</html>
