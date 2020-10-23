@@ -255,11 +255,12 @@ main .gallery {
 }
 
 .full_calendar {
-  width: 278px;
-  height: 246px;
+  width: 290px;
+  height: 260px;
   background-color: #880000;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   margin: 0 auto;
   border-radius: 5px;
